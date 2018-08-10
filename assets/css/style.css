@@ -1,0 +1,34 @@
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    width: 207px;
+    height: 50px;
+    line-height: 50px;
+}
+h2 {
+     color: #4aaaa5;
+}
+nav {
+    display: inline;
+    float: right;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgb(241, 36, 36);    
+    height: 40px;
+    width: 250px; 
+}
+ ul {
+    overflow: hidden;
+    float: right;
+}
+ul li {
+      float: left;
+}
+ul li a {color: white; 
+    padding: 0 10px; 
+    text-decoration: none;
+}
+ ul li a:hover {
+      color: #333;
+}
