@@ -60,23 +60,14 @@ nav {
 }
 
 /* for the form on the contact page */
-.col-25 {
-    float: left;
-    width: 75px;
-    margin-top: 6px;
+.form_item {
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
-.col-75 {
-    float: left;
-    width: 200px;
-    margin-top: 6px;
-}
-.row:after {   /* Clear floats after the columns */
-    content: "";
-    display: table;
-    clear: both;
-}
-#message {
-    width: 300px;
+textarea {
+    vertical-align: top;
+    margin-left: 20px;
+    width: 280px;
     height:150px;
 }
 .bigbluebutton {
@@ -84,6 +75,7 @@ nav {
     color: white;
     width: 100px;
     height: 30px;
+    margin-bottom: 20px;
 }
 
 /* for the portfolio page */
