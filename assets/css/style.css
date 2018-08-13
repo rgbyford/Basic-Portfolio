@@ -24,27 +24,14 @@ p {
     padding-right: 10px;
 }
 nav {
-    display: inline;
+    display: flex;
     float: right;
-    overflow: hidden;
-    height: 30px;
-    width: 280px; 
+    justify-content: space-evenly;
+    width: 300px;
 }
-/* for the nav bar menu */
-ul {
-    list-style: none;
-    float: right;
-}
-ul li {
-      float: left;
-}
-ul li a {color: black; 
-    padding: 0 10px; 
-    text-decoration: none;
-}
-ul li a:hover {
-     background: yellowgreen;
-     color: #333;
+.navitem:hover {
+    background: yellowgreen;
+    color: #333;
 }
 
 /* The lines dividing content */
